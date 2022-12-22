@@ -10,9 +10,9 @@ export default {
 			type: Array,
 			default: () => [
 				// 'Web Application',
-				// 'Mobile Application',
-				'Personal Project',
+				'Business Products',
 				'Freelance Project',
+				'Personal Project'
 			],
 		},
 	},

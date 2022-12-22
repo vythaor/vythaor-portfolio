@@ -39,8 +39,10 @@ export default {
 									: ''
 							"
 							aria-label="Project Website and Phone"
-							>{{ info.details }}</a
+							v-html="info.details"
+							></a
 						>
+						<!-- <p v-html="info.details"></p> -->
 					</li>
 				</ul>
 			</div>
@@ -110,6 +112,10 @@ export default {
 				class="font-general-regular mb-5 text-lg text-ternary-dark dark:text-ternary-light"
 			>
 				{{ projectDetail.details }}
+				<img
+					:src="projectDetail.img"
+					class="rounded-xl cursor-pointer mt-4"
+				/>
 			</p>
 		</div>
 	</div>

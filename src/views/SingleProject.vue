@@ -16,25 +16,25 @@ export default {
 	data: () => {
 		return {
 			singleProjectHeader: {
-				singleProjectTitle: 'Project Management UI',
-				singleProjectDate: 'Jul 26, 2021',
-				singleProjectTag: 'UI / Frontend',
+				singleProjectTitle: 'iRobot - Vacuum Control Application',
+				singleProjectDate: 'Oct, 2022',
+				singleProjectTag: 'Mobile App Design',
 			},
 			projectImages: [
 				{
 					id: 1,
 					title: 'Kabul Project Management UI',
-					img: require('@/assets/images/ui-project-1.jpg'),
+					img: require('@/assets/images/irobot/1.png'),
 				},
 				{
 					id: 2,
 					title: 'Kabul Project Management UI',
-					img: require('@/assets/images/web-project-2.jpg'),
+					img: require('@/assets/images/irobot/2.png'),
 				},
 				{
 					id: 3,
 					title: 'Kabul Project Management UI',
-					img: require('@/assets/images/mobile-project-2.jpg'),
+					img: require('@/assets/images/irobot/3.png'),
 				},
 			],
 			projectInfo: {
@@ -43,37 +43,35 @@ export default {
 					{
 						id: 1,
 						title: 'Name',
-						details: 'Company Ltd',
+						details: 'Personal customer',
 					},
 					{
 						id: 2,
 						title: 'Services',
-						details: 'UI Design & Frontend Development',
+						details: 'Mobile Application - Design UX&UI',
 					},
 					{
 						id: 3,
-						title: 'Website',
-						details: 'https://company.com',
-					},
-					{
-						id: 4,
-						title: 'Phone',
-						details: '+84969 952 523',
-					},
+						title: 'App store',
+						details: `<a href="https://apps.apple.com/gb/app/cleaning-vacuum-app/id1644300826" class="text-blue-500" target="_blank">Cleaning vacuum app</a>`,
+					}
+					// {
+					// 	id: 4,
+					// 	title: 'Phone',
+					// 	details: '+84969 952 523',
+					// },
 				],
 				objectivesHeading: 'Objective',
 				objectivesDetails:
-					'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
+					'Make your Vacuum Cleaner become the best house cleaning vacuum you ever had with this app. We offer you the most frequently used features of the Robot, making sure you can control it with some taps. Enjoying a cup of coffee, watching your favorite shows and managing your Robot vacuum work at the same time.',
 				technologies: [
 					{
 						title: 'Tools & Technologies',
 						techs: [
-							'HTML',
-							'CSS',
-							'JavaScript',
-							'Vue.js',
-							'TailwindCSS',
-							'AdobeXD',
+							'Figma',
+							'Photoshop',
+							'Illustrator',
+							'Affter Effects'
 						],
 					},
 				],
@@ -82,7 +80,8 @@ export default {
 					{
 						id: 1,
 						details:
-							'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+							'Make your Vacuum Cleaner become the best house cleaning vacuum you ever had with this app. We offer you the most frequently used features of the Robot, making sure you can control it with some taps. Enjoying a cup of coffee, watching your favorite shows and managing your Robot vacuum work at the same time.',
+						img: require('@/assets/images/irobot/3.png'),
 					},
 					{
 						id: 2,
