@@ -58,7 +58,7 @@ export default {
 					{
 						id: 4,
 						title: 'Phone',
-						details: '555 8888 888',
+						details: '+84969 952 523',
 					},
 				],
 				objectivesHeading: 'Objective',

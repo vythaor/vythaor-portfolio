@@ -6,12 +6,14 @@ export default {
 				{
 					id: 1,
 					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+						`I have worked as a Front-end Developer for two years before realizing my interest in 
+				designing technological products.`,
 				},
 				{
 					id: 2,
 					bio:
-						'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+						`Now I am a UX/UI Designer and I really enjoy my work. 
+				In the future, I plan to pursue a career as a Product Design Specialist.`,
 				},
 			],
 		};
@@ -32,13 +34,14 @@ export default {
 
 		<!-- About details -->
 		<div class="w-full sm:w-3/4 text-left">
-			<p
+			<pre
 				v-for="bio in bios"
 				:key="bio.id"
+				:v-html="bio.id"
 				class="font-general-regular mb-4 text-ternary-dark dark:text-ternary-light text-lg"
 			>
 				{{ bio.bio }}
-			</p>
+			</pre>
 		</div>
 	</div>
 </template>

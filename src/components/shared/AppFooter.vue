@@ -8,21 +8,21 @@ export default {
 			socials: [
 				{
 					id: 1,
-					name: 'GitHub',
-					icon: 'github',
+					name: 'Figma',
+					icon: 'figma',
 					url: 'https://github.com/realstoman',
 				},
 				{
 					id: 2,
-					name: 'Twitter',
-					icon: 'twitter',
+					name: 'Behance',
+					icon: 'figma',
 					url: 'https://twitter.com/realstoman',
 				},
 				{
 					id: 3,
-					name: 'Medium',
-					icon: 'book',
-					url: 'https://stoman.medium.com',
+					name: 'Linkedin',
+					icon: 'linkedin',
+					url: 'https://linkedin.com/in/vythaor',
 				},
 				{
 					id: 4,
@@ -62,7 +62,7 @@ export default {
 						:key="social.id"
 						:href="social.url"
 						target="__blank"
-						class="text-gray-400 hover:text-indigo-500 dark:hover:text-indigo-400 cursor-pointer rounded-lg bg-gray-50 dark:bg-ternary-dark hover:bg-gray-100 shadow-sm p-4 duration-500"
+						class="text-gray-400 hover:text-red-500 dark:hover:text-red-400 cursor-pointer rounded-lg bg-gray-50 dark:bg-ternary-dark hover:bg-gray-100 shadow-sm p-4 duration-500"
 					>
 						<i
 							:data-feather="social.icon"

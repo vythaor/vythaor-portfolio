@@ -9,10 +9,10 @@ export default {
 		selectOptions: {
 			type: Array,
 			default: () => [
-				'Web Application',
-				'Mobile Application',
-				'UI/UX Design',
-				'Branding & Anim',
+				// 'Web Application',
+				// 'Mobile Application',
+				'Personal Project',
+				'Freelance Project',
 			],
 		},
 	},

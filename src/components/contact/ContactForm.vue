@@ -82,7 +82,7 @@ export default { components: { Button } };
 				<div>
 					<Button
 						title="Send Message"
-						class="px-4 py-2.5 text-white tracking-wider bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 rounded-lg duration-500"
+						class="px-4 py-2.5 text-white tracking-wider bg-red-500 hover:bg-red-600 focus:ring-1 focus:ring-red-900 rounded-lg duration-500"
 						type="submit"
 						aria-label="Send Message"
 					/>

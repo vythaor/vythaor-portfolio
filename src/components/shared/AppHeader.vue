@@ -21,12 +21,12 @@ export default {
 				{
 					id: 1,
 					value: 'web',
-					name: 'Web Application',
+					name: 'Web Design',
 				},
 				{
 					id: 2,
 					value: 'mobile',
-					name: 'Mobile Application',
+					name: 'Mobile Application Design',
 				},
 				{
 					id: 3,
@@ -147,7 +147,7 @@ export default {
 				<div class="hidden md:block">
 					<Button
 						title="Hire Me"
-						class="text-md font-general-medium bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-md px-5 py-2.5 duration-300"
+						class="text-md font-general-medium bg-red-500 hover:bg-red-600 text-white shadow-sm rounded-md px-5 py-2.5 duration-300"
 						@click="showModal()"
 						aria-label="Hire Me Button"
 					/>
@@ -174,8 +174,8 @@ export default {
 
 <style scoped>
 #nav a.router-link-exact-active {
-	@apply text-indigo-700;
-	@apply dark:text-indigo-400;
+	@apply text-red-700;
+	@apply dark:text-red-400;
 	@apply font-medium;
 }
 </style>
