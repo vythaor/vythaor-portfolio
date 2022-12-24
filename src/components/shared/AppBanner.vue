@@ -36,22 +36,22 @@ export default {
 			<p
 				class="font-general-medium mt-2 text-lg sm:text-xl  xl:text-2xl text-center sm:text-left leading-none text-gray-400"
 			>
-				A UX/UI Designer
+				An UX/UI Designer
 			</p>
 			<div class="flex justify-center sm:block">
 				<a
-					download="UX-UI-Designer-Phan-Hoang-Vy-Thao.pdf"
 					href="/files/UX-UI-Designer-Phan-Hoang-Vy-Thao.pdf"
 					class="flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-red-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-red-50 focus:ring-1 focus:ring-red-900 hover:bg-red-500 text-gray-500 hover:text-white duration-500"
 					aria-label="Download Resume"
+					target="_blank"
 				>
 					<i
-						data-feather="arrow-down-circle"
+						data-feather="paperclip"
 						class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100"
 					></i>
 					<span
 						class="text-sm sm:text-lg font-general-medium duration-100"
-						>Download CV</span
+						>View CV</span
 					></a
 				>
 			</div>

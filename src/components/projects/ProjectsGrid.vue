@@ -44,6 +44,7 @@ export default {
 	},
 	mounted() {
 		feather.replace();
+		console.log('this', this)
 	},
 };
 </script>
