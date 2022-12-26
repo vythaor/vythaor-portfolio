@@ -16,8 +16,7 @@ export default {
 	},
 	computed: {
 		getProjectDetails() {
-			const dm = projectdetails.find(p => p.id == this.$route.params.id)
-			return dm
+			return projectdetails.find(p => p.id == this.$route.params.id)
 		}
 	},
 	mounted() {
@@ -35,13 +34,14 @@ export default {
 		<!-- Project header -->
 		<ProjectHeader :singleProjectHeader="getProjectDetails.singleProjectHeader" />
 
-		<!-- Project gallery -->
-		<ProjectGallery :projectImages="getProjectDetails.projectImages" />
-
 		<!-- Project information -->
 		<ProjectInfo :projectInfo="getProjectDetails.projectInfo" />
+
+		<!-- Project gallery -->
+		<ProjectGallery :projectImages="getProjectDetails.projectImages" />
+		
 		<!-- Project related projects -->
-		<ProjectRelatedProjects :relatedProject="getProjectDetails.relatedProject" />
+		<ProjectRelatedProjects :relatedProject="getProjectDetails.relatedProject" :project="getProjectDetails.projectInfo" />
 	</div>
 </template>
 

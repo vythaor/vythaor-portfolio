@@ -44,4 +44,23 @@ export default {
 			</pre>
 		</div>
 	</div>
+	<div class="mt-10 sm:mt-20">
+		<p
+			class="font-general-medium text-2xl sm:text-3xl text-primary-dark dark:text-primary-light text-center"
+		>
+			Education
+		</p>
+		<div class="container mx-auto flex flex-col-reverse md:flex-row py-5 md:py-10 md:mt-10">
+			<div
+				class="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark"
+			>
+				Industrial University of Ho Chi Minh City
+			</div>
+			<div
+				class="rounded-xl shadow-lg hover:shadow-xl cursor-pointer mb-10 sm:mb-0 bg-secondary-light dark:bg-ternary-dark"
+			>
+				Industrial University of Ho Chi Minh City
+			</div>
+		</div>
+	</div>
 </template>

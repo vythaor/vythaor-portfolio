@@ -48,7 +48,7 @@ export default {
 			</div>
 
 			<!-- Single project objectives -->
-			<div class="mb-7">
+			<!-- <div class="mb-7">
 				<p
 					class="font-general-medium text-2xl text-ternary-dark dark:text-ternary-light mb-2"
 				>
@@ -59,7 +59,7 @@ export default {
 				>
 					{{ projectInfo.objectivesDetails }}
 				</p>
-			</div>
+			</div> -->
 
 			<!-- Single project technologies -->
 			<div class="mb-7">
@@ -76,7 +76,7 @@ export default {
 			</div>
 
 			<!-- Single project social sharing -->
-			<div>
+			<!-- <div>
 				<p
 					class="font-general-medium text-2xl text-ternary-dark dark:text-ternary-light mb-2"
 				>
@@ -96,7 +96,7 @@ export default {
 						></i
 					></a>
 				</div>
-			</div>
+			</div> -->
 		</div>
 
 		<!-- Single project right section details -->

@@ -6,6 +6,14 @@ import projects from '../../data/projects';
 
 export default {
 	components: { ProjectSingle, ProjectsFilter },
+	props: {
+		itemStart: {
+			required: false,
+		},
+		itemNumber: {
+			required: false,
+		}
+	},
 	data: () => {
 		return {
 			projects,
@@ -44,7 +52,6 @@ export default {
 	},
 	mounted() {
 		feather.replace();
-		console.log('this', this)
 	},
 };
 </script>
@@ -137,7 +144,7 @@ export default {
 			class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10"
 		>
 			<ProjectSingle
-				v-for="project in filteredProjects"
+				v-for="project in filteredProjects.slice(itemStart, itemNumber)"
 				:key="project.id"
 				:project="project"
 			/>

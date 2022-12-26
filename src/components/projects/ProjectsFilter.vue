@@ -4,7 +4,7 @@ export default {
 		select: {
 			type: String,
 			default: 'projects',
-			required: true,
+			required: false,
 		},
 		selectOptions: {
 			type: Array,

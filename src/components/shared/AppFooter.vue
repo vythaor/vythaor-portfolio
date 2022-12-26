@@ -15,7 +15,8 @@ export default {
 				{
 					id: 2,
 					name: 'Behance',
-					icon: 'figma',
+					icon: 'bold',
+					// isImg: true,
 					url: 'https://behance.com/vythaor',
 				},
 				{
@@ -64,6 +65,10 @@ export default {
 						target="__blank"
 						class="text-gray-400 hover:text-red-500 dark:hover:text-red-400 cursor-pointer rounded-lg bg-gray-50 dark:bg-ternary-dark hover:bg-gray-100 shadow-sm p-4 duration-500"
 					>
+						<!-- <img v-if="social.isImg"
+							:src="social.icon"
+							class="w-5 sm:w-8 h-5 sm:h-8 stroke-1 hover:stroke-2"
+						/> -->
 						<i
 							:data-feather="social.icon"
 							class="w-5 sm:w-8 h-5 sm:h-8"

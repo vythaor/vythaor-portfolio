@@ -3,8 +3,8 @@ export default {
 	data: () => {
 		return {
 			copyrightDate: new Date().getFullYear(),
-			projectName: 'Thao Phan Portfolio',
-			author: 'vythaor',
+			projectName: 'Sherry Portfolio',
+			author: 'Sherry (vythaor)',
 		};
 	},
 };
@@ -25,7 +25,7 @@ export default {
 			</a>
 			. Developed by
 			<a
-				href="https://stoman.me"
+				href="https://vythaor.design"
 				target="__blank"
 				class="font-general-medium text-secondary-dark dark:text-secondary-light uppercase hover:underline hover:text-red-600 dark:hover:text-red-300 duration-500"
 				>{{ author }}</a
