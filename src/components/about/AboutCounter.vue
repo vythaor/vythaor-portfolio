@@ -6,9 +6,9 @@ export default {
 	},
 	data: () => {
 		return {
-			experienceTitle: 'Years of experience in design',
-			githubTitle: 'Stars on GitHub',
-			feedbackTitle: 'Positive feedback',
+			experienceTitle: 'Years\' experience in design',
+			devTitle: 'Years\' experience in FE development',
+			viewsTitle: 'Project views on Behance',
 			projectsTitle: 'Projects completed',
 		};
 	},
@@ -46,16 +46,15 @@ export default {
 				<counter
 					ref="counter"
 					:startAmount="0"
-					:endAmount="20"
+					:endAmount="2"
 					:duration="1"
-					suffix="k+"
 					:autoinit="true"
 					@finished="alert(`Counting finished!`)"
 					class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
 				/>
 				<span
 					class="block text-md text-ternary-dark dark:text-ternary-light"
-					>{{ githubTitle }}</span
+					>{{ devTitle }}</span
 				>
 			</div>
 
@@ -64,9 +63,9 @@ export default {
 				<counter
 					ref="counter"
 					:startAmount="0"
-					:endAmount="92"
+					:endAmount="367"
 					:duration="1"
-					suffix="%"
+					suffix="+"
 					:autoinit="true"
 					@finished="alert(`Counting finished!`)"
 					class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
@@ -74,7 +73,7 @@ export default {
 				<span
 					class="block text-md text-ternary-dark dark:text-ternary-light"
 				>
-					{{ feedbackTitle }}
+					{{ viewsTitle }}
 				</span>
 			</div>
 
@@ -83,8 +82,9 @@ export default {
 				<counter
 					ref="counter"
 					:startAmount="0"
-					:endAmount="77"
+					:endAmount="15"
 					:duration="1"
+					suffix="+"
 					:autoinit="true"
 					@finished="alert(`Counting finished!`)"
 					class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"

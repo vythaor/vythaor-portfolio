@@ -7,11 +7,8 @@ import projects from '../../data/projects';
 export default {
 	components: { ProjectSingle, ProjectsFilter },
 	props: {
-		itemStart: {
-			required: false,
-		},
-		itemNumber: {
-			required: false,
+		onlyFeature: {
+			require: false
 		}
 	},
 	data: () => {
@@ -29,6 +26,8 @@ export default {
 				return this.filterProjectsByCategory();
 			} else if (this.searchProject) {
 				return this.filterProjectsBySearch();
+			} else if(this.onlyFeature) {
+				return this.projects.filter(p => p.isFeature == this.onlyFeature)
 			}
 			return this.projects;
 		},
@@ -144,7 +143,7 @@ export default {
 			class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mt-6 sm:gap-10"
 		>
 			<ProjectSingle
-				v-for="project in filteredProjects.slice(itemStart, itemNumber)"
+				v-for="project in filteredProjects"
 				:key="project.id"
 				:project="project"
 			/>

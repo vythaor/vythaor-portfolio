@@ -17,12 +17,12 @@ export default {
 	<div class="block sm:flex gap-0 sm:gap-10 mt-14">
 		<!-- Single project left section details -->
 		<div class="w-full sm:w-1/3 text-left">
-			<!-- Single project client details -->
+			<!-- Single project service details -->
 			<div class="mb-7">
 				<p
 					class="font-general-medium text-2xl text-secondary-dark dark:text-secondary-light mb-2"
 				>
-					{{ projectInfo.clientHeading }}
+					{{ projectInfo.serviceHeading }}
 				</p>
 				<ul class="leading-loose">
 					<li

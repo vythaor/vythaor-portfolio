@@ -483,11 +483,6 @@ const projectdetails = [
                     title: 'App store',
                     details: `<a href="https://apps.apple.com/gb/app/cleaning-vacuum-app/id1644300826" class="text-blue-500" target="_blank">Cleaning vacuum app</a>`,
                 }
-                // {
-                // 	id: 4,
-                // 	title: 'Phone',
-                // 	details: '+84969 952 523',
-                // },
             ],
             objectivesHeading: 'Objective',
             objectivesDetails:
@@ -641,39 +636,6 @@ const projectdetails = [
                         'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
                 },
             ],
-            socialSharingsHeading: 'Share This',
-            socialSharings: [
-                {
-                    id: 1,
-                    name: 'Twitter',
-                    icon: 'twitter',
-                    url: 'https://twitter.com/realstoman',
-                },
-                {
-                    id: 2,
-                    name: 'Instagram',
-                    icon: 'instagram',
-                    url: 'https://instagram.com/realstoman',
-                },
-                {
-                    id: 3,
-                    name: 'Facebook',
-                    icon: 'facebook',
-                    url: 'https://facebook.com/',
-                },
-                {
-                    id: 4,
-                    name: 'LinkedIn',
-                    icon: 'linkedin',
-                    url: 'https://linkedin.com/',
-                },
-                {
-                    id: 5,
-                    name: 'Youtube',
-                    icon: 'youtube',
-                    url: 'https://www.youtube.com/c/StomanStudio',
-                },
-            ],
         },
         relatedProject: {
             relatedProjectsHeading: 'Related Projects',
@@ -821,7 +783,7 @@ const projectdetails = [
         singleProjectHeader: {
             singleProjectTitle: 'Prudential Internal Projects',
             singleProjectDate: '2021 - 2022',
-            singleProjectTag: 'Freelance Project',
+            singleProjectTag: 'Business Project',
         },
         projectImages: [
             {
@@ -968,7 +930,7 @@ const projectdetails = [
         singleProjectHeader: {
             singleProjectTitle: 'Ethereum Web/App',
             singleProjectDate: 'June 2020',
-            singleProjectTag: 'Internal Project',
+            singleProjectTag: 'Business Project',
         },
         projectImages: [
             {
@@ -1082,7 +1044,7 @@ const projectdetails = [
         singleProjectHeader: {
             singleProjectTitle: 'T-shirt Application',
             singleProjectDate: 'May 2020',
-            singleProjectTag: 'Internal Project',
+            singleProjectTag: 'Business Project',
         },
         projectImages: [
             {
@@ -1196,7 +1158,7 @@ const projectdetails = [
         singleProjectHeader: {
             singleProjectTitle: 'SKG Landing Page',
             singleProjectDate: 'January 2020',
-            singleProjectTag: 'Internal Project',
+            singleProjectTag: 'Business Project',
         },
         projectImages: [
             {

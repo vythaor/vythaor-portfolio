@@ -16,20 +16,21 @@ export default {
 			class="font-general-regular text-lg text-ternary-dark dark:text-ternary-light"
 		>
 			&copy; {{ copyrightDate }}.
-			<a
-				href="https://github.com/vythaor/vythaor-portfolio"
-				target="__blank"
-				class="font-general-medium hover:underline hover:text-red-600 dark:hover:text-red-300 duration-500"
+			<span
+				class="font-general-medium"
 			>
 				{{ projectName }}
-			</a>
+		</span>	
 			. Developed by
-			<a
-				href="https://vythaor.design"
-				target="__blank"
-				class="font-general-medium text-secondary-dark dark:text-secondary-light uppercase hover:underline hover:text-red-600 dark:hover:text-red-300 duration-500"
-				>{{ author }}</a
+			<router-link
+				to="/about"
 			>
+				<a
+					target="__blank"
+					class="font-general-medium text-secondary-dark dark:text-secondary-light uppercase hover:underline hover:text-red-600 dark:hover:text-red-300 duration-500"
+					>{{ author }}</a
+				>
+			</router-link>
 		</div>
 	</div>
 </template>

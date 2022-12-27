@@ -1,14 +1,14 @@
 <script>
-import AboutClientSingle from './AboutClientSingle.vue';
+import AboutServiceSingle from './AboutServiceSingle.vue';
 
 export default {
 	components: {
-		AboutClientSingle,
+		AboutServiceSingle,
 	},
 	data: () => {
 		return {
-			clientsHeading: 'Some of the brands I have worked with',
-			clients: [
+			servicesHeading: 'Services I offer',
+			services: [
 				{
 					id: 1,
 					title: 'Amazon',
@@ -60,13 +60,13 @@ export default {
 		<p
 			class="font-general-medium text-2xl sm:text-3xl text-primary-dark dark:text-primary-light"
 		>
-			{{ clientsHeading }}
+			{{ servicesHeading }}
 		</p>
 		<div class="grid grid-cols-2 sm:grid-cols-4 mt-10 sm:mt-14 gap-2">
-			<AboutClientSingle
-				v-for="client in clients"
-				:key="client.id"
-				:client="client"
+			<AboutServiceSingle
+				v-for="service in services"
+				:key="service.id"
+				:service="service"
 			/>
 		</div>
 	</div>
