@@ -36,7 +36,7 @@ export default {
 				{
 					id: 4,
 					value: 'branding',
-					name: 'Photo Editing',
+					name: 'Photo',
 				},
 			],
 		};
@@ -54,18 +54,19 @@ export default {
 			this.theme = theme;
 		},
 		showModal() {
-			if (this.modal) {
-				// Stop screen scrolling
-				document
-					.getElementsByTagName('html')[0]
-					.classList.remove('overflow-y-hidden');
-				this.modal = false;
-			} else {
-				document
-					.getElementsByTagName('html')[0]
-					.classList.add('overflow-y-hidden');
-				this.modal = true;
-			}
+			this.$router.replace('/contact');
+			// if (this.modal) {
+			// 	// Stop screen scrolling
+			// 	document
+			// 		.getElementsByTagName('html')[0]
+			// 		.classList.remove('overflow-y-hidden');
+			// 	this.modal = false;
+			// } else {
+			// 	document
+			// 		.getElementsByTagName('html')[0]
+			// 		.classList.add('overflow-y-hidden');
+			// 	this.modal = true;
+			// }
 		},
 	},
 	updated() {
