@@ -52,7 +52,7 @@ export default {
 		>
 			{{ servicesHeading }}
 		</p>
-		<div class="grid grid-cols-2 sm:grid-cols-4 mt-10 sm:mt-14 gap-2 flex justify-center">
+		<div class="grid md:grid-cols-4 sm:grid-cols-1 mt-10 sm:mt-14 gap-2 flex justify-center">
 			<AboutServiceSingle
 				v-for="service in services"
 				:key="service.id"

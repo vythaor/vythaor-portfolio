@@ -21,7 +21,7 @@ export default {
 					id: 1,
 					title: 'Bachelor of Computer Science',
 					img: require('@/assets/images/logo-iuh.svg'),
-					time: 'September 2013 - May 2017',
+					time: 'Sept 2013 - May 2017',
 					point: 'GPA: 2.8/4',
 					desc: 
 					`My major is Software Engineering. </br>
@@ -37,7 +37,7 @@ export default {
 					id: 2,
 					title: 'Keyframe Training',
 					img: require('@/assets/images/keyframe.png'),
-					time: 'December 2019 - June 2020',
+					time: 'Dec 2019 - Jun 2020',
 					desc: `
 						What I learnt: </br>
 						- Mindset, design thinking and process in designing digital product </br>
@@ -66,14 +66,14 @@ export default {
 
 		<!-- About details -->
 		<div class="w-full sm:w-3/4 text-left">
-			<pre
+			<div
 				v-for="bio in bios"
 				:key="bio.id"
 				:v-html="bio.id"
-				class="font-general-regular text-ternary-dark dark:text-ternary-light text-lg"
+				class="leading-loose font-general-regular text-ternary-dark dark:text-ternary-light text-lg mb-6"
 			>
 				{{ bio.bio }}
-			</pre>
+		</div>
 		</div>
 	</div>
 	<div class="mt-10 sm:mt-20">
@@ -84,7 +84,7 @@ export default {
 		</p>
 	</div>
 	<div
-		class="grid grid-cols-2 gap-4 flex flex-row"	
+		class="grid flex md:grid-cols-2 gap-4 md:flex-row sm:flex-col"	
 	>
 		<div 
 			v-for="edu in educations"
@@ -93,11 +93,11 @@ export default {
 		>
 			<div
 				class="leading-loose max-w-xl m-4 p-7
-				border border-ternary-light dark:border-ternary-dark shadow-sm rounded-lg mb-8 cursor-pointer dark:bg-secondary-light
-				flex justify-between"
+				border border-ternary-light dark:border-ternary-dark shadow-sm rounded-lg mb-6 cursor-pointer dark:bg-secondary-light
+				flex flex-row"
 			>
 				<div>
-					<div class="flex items-center">
+					<div class="flex flex-row items-center">
 						<div>
 							<img
 								:src="edu.img"
@@ -107,32 +107,43 @@ export default {
 						</div>	
 						<div>
 							<p
-								class="font-general-medium text-primary-dark dark:text-primary-light text-xl"
+								class="font-general-medium text-primary-dark dark:text-primary-light text-xl text-left ml-2"
 							>
 								{{ edu.title }}
 							</p>
 						</div>
 					</div>
-					<div class="flex justify-left mr-20 mt-2 mb-5">
-							<i
-								data-feather="clock"
-								class="w-4 h-4 text-ternary-dark dark:text-ternary-light"
-							></i>
-							<span
-								class="font-general-medium ml-2 leading-none text-primary-dark dark:text-primary-light"
-								>{{ edu.time }}</span
-							>
-						
-							<i v-if="edu.point"
-								data-feather="code"
-								class="w-4 h-4 text-ternary-dark dark:text-ternary-light ml-5"
-							></i>
-							<span
-								v-if="edu.point"
-								class="font-general-medium ml-2 leading-none text-primary-dark dark:text-primary-light"
-							>
-								{{ edu.point }}
-							</span>
+					<div class="flex md:flex-row sm:flex-col mb-2 mt-2 grid md:grid-cols-2 sm:grid-cols-1">
+						<div class="flex flex-row items-center">
+							<div>
+								<i
+									data-feather="clock"
+									class="w-4 h-4 text-ternary-dark dark:text-ternary-light"
+								></i>
+							</div>
+							<div>
+								<span
+									class="font-general-medium ml-2 leading-none text-primary-dark dark:text-primary-light"
+									>{{ edu.time }}</span
+								>
+							</div>
+						</div>
+						<div class="flex flex-row items-center">
+							<div>
+								<i v-if="edu.point"
+									data-feather="award"
+									class="w-4 h-4 text-ternary-dark dark:text-ternary-light md:ml-5"
+								></i>
+							</div>
+							<div>
+								<span
+									v-if="edu.point"
+									class="font-general-medium ml-2 leading-none text-primary-dark dark:text-primary-light"
+								>
+									{{ edu.point }}
+								</span>
+							</div>
+						</div>
 					</div>
 					<div class="text-left">
 						<div v-html="edu.desc">
@@ -142,5 +153,5 @@ export default {
 				</div>
 			</div>
 		</div>
-	</div>	
+	</div>
 </template>

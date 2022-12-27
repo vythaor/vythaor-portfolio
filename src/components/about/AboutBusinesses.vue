@@ -37,7 +37,7 @@ export default {
 		>
 			{{ businessHeading }}
 		</p>
-	<div class="grid grid-cols-2 sm:grid-cols-2 mt-10 sm:mt-14 gap-2">
+	<div class="grid md:grid-cols-2 sm:grid-cols-1 mt-10 sm:mt-14 gap-2">
         <div
             v-for="business in business"
             :key="business.id"

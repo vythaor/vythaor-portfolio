@@ -36,7 +36,7 @@ export default {
 				{
 					id: 4,
 					value: 'branding',
-					name: 'Branding & Anim',
+					name: 'Photo Editing',
 				},
 			],
 		};
