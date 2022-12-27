@@ -24,21 +24,28 @@ export default {
 					time: 'September 2013 - May 2017',
 					point: 'GPA: 2.8/4',
 					desc: 
-					`My major is Software Engineering
-					Technical and knowledge:
-						- Analysis and design system, working with UML
-						- Database management system, using MySQL
-						- Programming languages: C#, learning MVC, .NET, PHP
-						- Software development life cycle
-						- Quality assurance and software testing
-						- Web programming`
+					`My major is Software Engineering. </br>
+					Technical and knowledge: </br>
+					&nbsp- Analysis and design system, working with UML </br>
+					&nbsp- Database management system, using MySQL </br>
+					&nbsp- Programming languages: C#, learning MVC, .NET, PHP </br>
+					&nbsp- Software development life cycle </br>
+					&nbsp- Quality assurance and software testing </br>
+					&nbsp- Web programming </br>` 
 				},
 				{
 					id: 2,
 					title: 'Keyframe Training',
 					img: require('@/assets/images/keyframe.png'),
 					time: 'December 2019 - June 2020',
-					desc: 'test'
+					desc: `
+						What I learnt: </br>
+						- Mindset, design thinking and process in designing digital product </br>
+						- Knowledge and UX Research, UX Design from Lo-fi wireframe to Hi-fi wireframe </br>
+						- Design system manage </br>
+						- Design complete a personal project with a team </br>
+						- UX/UI career path
+					`
 				}
 			]
 		};
@@ -63,7 +70,7 @@ export default {
 				v-for="bio in bios"
 				:key="bio.id"
 				:v-html="bio.id"
-				class="font-general-regular mb-4 text-ternary-dark dark:text-ternary-light text-lg"
+				class="font-general-regular text-ternary-dark dark:text-ternary-light text-lg"
 			>
 				{{ bio.bio }}
 			</pre>
@@ -106,7 +113,7 @@ export default {
 							</p>
 						</div>
 					</div>
-					<div class="flex justify-between mr-20 mt-2 mb-5">
+					<div class="flex justify-left mr-20 mt-2 mb-5">
 							<i
 								data-feather="clock"
 								class="w-4 h-4 text-ternary-dark dark:text-ternary-light"
@@ -127,9 +134,9 @@ export default {
 								{{ edu.point }}
 							</span>
 					</div>
-					<div class="flex">
-						<div>
-								{{edu.desc}}
+					<div class="text-left">
+						<div v-html="edu.desc">
+								
 						</div>
 					</div>
 				</div>

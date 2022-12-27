@@ -11,43 +11,33 @@ export default {
 			services: [
 				{
 					id: 1,
-					title: 'Amazon',
-					img: require('@/assets/images/brands/amazon_gray.png'),
+					title: 'UX/UI Design',
+					img: require('@/assets/images/brands/website.png'),
 				},
 				{
 					id: 2,
-					title: 'Sony',
-					img: require('@/assets/images/brands/sony_gray.png'),
+					title: 'Product Design',
+					img: require('@/assets/images/brands/graphic-design.png'),
 				},
 				{
 					id: 3,
-					title: 'Adidas',
-					img: require('@/assets/images/brands/adidas_gray.png'),
+					title: 'Mobile Application Design',
+					img: require('@/assets/images/brands/smartphone.png'),
 				},
 				{
 					id: 4,
-					title: 'FILA',
-					img: require('@/assets/images/brands/fila_gray.png'),
+					title: 'Website Design',
+					img: require('@/assets/images/brands/website.png'),
 				},
 				{
 					id: 5,
-					title: 'NB',
-					img: require('@/assets/images/brands/nb_gray.png'),
+					title: 'Photo Editing, Photoshop',
+					img: require('@/assets/images/brands/camera.png'),
 				},
 				{
 					id: 6,
-					title: 'SAMSUNG',
-					img: require('@/assets/images/brands/samsung_gray.png'),
-				},
-				{
-					id: 7,
-					title: 'CANON',
-					img: require('@/assets/images/brands/canon_gray.png'),
-				},
-				{
-					id: 7,
-					title: 'PUMA',
-					img: require('@/assets/images/brands/puma_gray.png'),
+					title: 'Blend and Retouch',
+					img: require('@/assets/images/brands/image.png'),
 				},
 			],
 		};
@@ -62,7 +52,7 @@ export default {
 		>
 			{{ servicesHeading }}
 		</p>
-		<div class="grid grid-cols-2 sm:grid-cols-4 mt-10 sm:mt-14 gap-2">
+		<div class="grid grid-cols-2 sm:grid-cols-4 mt-10 sm:mt-14 gap-2 flex justify-center">
 			<AboutServiceSingle
 				v-for="service in services"
 				:key="service.id"

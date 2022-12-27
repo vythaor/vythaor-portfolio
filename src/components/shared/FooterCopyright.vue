@@ -3,7 +3,7 @@ export default {
 	data: () => {
 		return {
 			copyrightDate: new Date().getFullYear(),
-			projectName: 'Sherry Portfolio',
+			projectName: 'Sherry\'s Portfolio',
 			author: 'Sherry (vythaor)',
 		};
 	},
