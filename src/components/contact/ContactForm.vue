@@ -20,6 +20,9 @@ export default {
 			.then((result) => {
 				console.log('SUCCESS!', result.text);
 				window.alert('Message sent!')
+				this.name = ''
+				this.email = ''
+				this.message = ''
 			}, (error) => {
 				console.log('FAILED...', error.text);
 				window.alert('Something wrong! Please try again later.')

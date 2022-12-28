@@ -783,7 +783,7 @@ const projectdetails = [
             companyInfos: [
                 {
                     id: 1,
-                    title: 'Company site:',
+                    title: 'Company site',
                     details: `<a href="https://www.prudential.com.vn/vi/" class="text-blue-500" target="_blank">Prudential</a>`,
                 },
             ],
