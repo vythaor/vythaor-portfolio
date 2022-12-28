@@ -107,7 +107,7 @@ export default {
 						</div>	
 						<div>
 							<p
-								class="font-general-medium text-primary-dark dark:text-primary-light text-xl text-left ml-2"
+								class="font-general-medium text-xl text-left ml-2"
 							>
 								{{ edu.title }}
 							</p>
@@ -118,12 +118,12 @@ export default {
 							<div>
 								<i
 									data-feather="clock"
-									class="w-4 h-4 text-ternary-dark dark:text-ternary-light"
+									class="w-4 h-4"
 								></i>
 							</div>
 							<div>
 								<span
-									class="font-general-medium ml-2 leading-none text-primary-dark dark:text-primary-light"
+									class="font-general-medium ml-2 leading-none"
 									>{{ edu.time }}</span
 								>
 							</div>
@@ -132,13 +132,13 @@ export default {
 							<div>
 								<i v-if="edu.point"
 									data-feather="award"
-									class="w-4 h-4 text-ternary-dark dark:text-ternary-light md:ml-5"
+									class="w-4 h-4 md:ml-5"
 								></i>
 							</div>
 							<div>
 								<span
 									v-if="edu.point"
-									class="font-general-medium ml-2 leading-none text-primary-dark dark:text-primary-light"
+									class="font-general-medium ml-2 leading-none"
 								>
 									{{ edu.point }}
 								</span>

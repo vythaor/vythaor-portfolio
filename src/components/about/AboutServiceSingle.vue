@@ -14,7 +14,7 @@ export default {
 			class="w-36 px-10 rounded-lg mb-6 ml-2 cursor-pointer"
 		/>
 		<span
-			class="font-general-medium text-xl sm:text-xl text-primary-dark dark:text-primary-light text-center"
+			class="font-general-medium text-xl sm:text-xl text-center"
 		>
 			{{service.title}}
 		</span>

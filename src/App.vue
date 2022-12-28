@@ -31,7 +31,7 @@ export default {
 		<transition name="fade" mode="out-in">
 			<router-view :theme="appTheme" />
 		</transition>
-
+		
 		<!-- Scroll to top -->
 		<back-to-top
 			visibleoffset="500"

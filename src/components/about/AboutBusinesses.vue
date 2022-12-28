@@ -54,7 +54,7 @@ export default {
                         class="w-5 sm:w-8 h-5 sm:h-8 mr-4"
                     ></i>
                     <span
-                        class="font-general-medium text-xl sm:text-xl text-primary-dark dark:text-primary-light hover:text-red-500 dark:hover:text-red-400"
+                        class="font-general-medium text-xl sm:text-xl hover:text-red-500 dark:hover:text-red-400"
                     >
                         {{business.title}}
                     </span>

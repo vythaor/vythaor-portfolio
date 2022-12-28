@@ -12,7 +12,7 @@ export default {
 				{
 					id: 1,
 					title: 'UX/UI Design',
-					img: require('@/assets/images/brands/website.png'),
+					img: require('@/assets/images/brands/art-and-design.png'),
 				},
 				{
 					id: 2,

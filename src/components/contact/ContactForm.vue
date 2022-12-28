@@ -19,8 +19,10 @@ export default {
 			emailjs.sendForm('service_nd20i4j', 'template_0e4rb2g', e.target, 'ZOMS_Uo8MBtikLuES')
 			.then((result) => {
 				console.log('SUCCESS!', result.text);
+				window.alert('Message sent!')
 			}, (error) => {
 				console.log('FAILED...', error.text);
+				window.alert('Something wrong! Please try again later.')
 			});
     }
 	}
