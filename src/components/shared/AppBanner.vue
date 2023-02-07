@@ -1,11 +1,16 @@
 <script>
 import feather from 'feather-icons';
+// import ViewCVModal from '../ViewCVModal.vue';
 
 export default {
+	components: {
+    // ViewCVModal
+},
 	name: 'Home',
 	data: () => {
 		return {
 			theme: '',
+			modal: false
 		};
 	},
 	created() {
@@ -18,7 +23,22 @@ export default {
 	updated() {
 		feather.replace();
 	},
-	methods: {},
+	methods: {
+		// showModal() {
+		// 	if (this.modal) {
+		// 		// Stop screen scrolling
+		// 		document
+		// 			.getElementsByTagName('html')[0]
+		// 			.classList.remove('overflow-y-hidden');
+		// 		this.modal = false;
+		// 	} else {
+		// 		document
+		// 			.getElementsByTagName('html')[0]
+		// 			.classList.add('overflow-y-hidden');
+		// 		this.modal = true;
+		// 	}
+		// },
+	},
 };
 </script>
 
@@ -38,9 +58,8 @@ export default {
 			>
 				An UX/UI Designer
 			</p>
-			<div class="flex justify-center sm:block">
+			<!-- <div class="flex justify-center sm:block cursor-pointer" @click="showModal()">
 				<a
-					href="/files/UX-UI-Designer-Phan-Hoang-Vy-Thao.pdf"
 					class="flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-red-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-red-50 focus:ring-1 focus:ring-red-900 hover:bg-red-500 text-gray-500 hover:text-white duration-500"
 					aria-label="Download Resume"
 					target="_blank"
@@ -54,7 +73,7 @@ export default {
 						>View CV</span
 					></a
 				>
-			</div>
+			</div> -->
 		</div>
 
 		<!-- Banner right illustration -->
@@ -69,6 +88,14 @@ export default {
 				alt="Developer"
 			/>
 		</div>
+
+		<!-- Hire me modal -->
+		<!-- <ViewCVModal
+			:showModal="showModal"
+			:modal="modal"
+			:categories="categories"
+			aria-modal="Hire Me Modal"
+		/> -->
 	</section>
 </template>
 
