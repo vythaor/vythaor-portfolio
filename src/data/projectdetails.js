@@ -2,6 +2,99 @@
 // Note: Here we are getting data from a js file, but in a different project I'll be fetching these projects from some srt of APIs.
 
 const projectdetails = [
+    //project 13
+	{
+		id: 13,
+		singleProjectHeader: {
+            singleProjectTitle: 'Car Control Application ',
+            singleProjectDate: 'March 2023',
+            singleProjectTag: 'Freelance Project',
+        },
+        projectImages: [
+            {
+                id: 13,
+                title: 'Car Control',
+                img: require('@/assets/images/project-13/img-1.png'),
+            },
+            {
+                id: 13,
+                title: 'Car Control',
+                img: require('@/assets/images/project-13/img-2.png'),
+            },
+            {
+                id: 13,
+                title: 'Car Control',
+                img: require('@/assets/images/project-13/img-3.png'),
+            },
+            {
+                id: 13,
+                title: 'Car Control',
+                img: require('@/assets/images/project-13/img-4.png'),
+            },
+        ],
+        projectInfo: {
+            clientHeading: 'About Client',
+            companyInfos: [
+                {
+                    id: 1,
+                    title: 'Name',
+                    details: 'Personal Client',
+                },
+                {
+                    id: 2,
+                    title: 'Appstore',
+                    details: `In development`,
+                }
+            ],
+            technologies: [
+                {
+                    title: 'Tools & Technologies',
+                    tools: [
+                        'Figma',
+                        'Photoshop',
+                        'Illustrator'
+                    ],
+                    techs: [
+                        'UI Design',
+                        'UX Design'
+                    ]
+                },
+            ],
+            projectDetailsHeading: 'Project Goals',
+            projectDetails: [
+                {
+                    id: 1,
+                    details:
+                        'Car-controlling application is designed to provide seamless control over your vehicle through your smartphone. Compatible with a wide range of car models, this app connects to your car\'s onboard system via Bluetooth or an internet connection, allowing you to access and manage various functions remotely.',
+                },
+            ],
+        },
+        relatedProject: {
+            relatedProjectsHeading: 'Related Projects',
+            relatedProjects: [
+                {
+                    id: 9,
+                    title: 'NFT Marketplace',
+                    img: require('@/assets/images/project-9.png'),
+                },
+                {
+                    id: 8,
+                    title: 'Luar Application',
+                    img: require('@/assets/images/project-8.png'),
+                },
+                {
+                    id: 7,
+                    title: 'Clean Up',
+                    img: require('@/assets/images/project-7.png'),
+                },
+                {
+                    id: 6,
+                    title: 'Behap Website',
+                    img: require('@/assets/images/project-6.png'),
+                },
+            ],
+        },
+	},
      //project 11
 	{
 		id: 11,

@@ -1,10 +1,10 @@
 <script>
 import feather from 'feather-icons';
-// import ViewCVModal from '../ViewCVModal.vue';
+import ViewCVModal from '../ViewCVModal.vue';
 
 export default {
 	components: {
-    // ViewCVModal
+    ViewCVModal
 },
 	name: 'Home',
 	data: () => {
@@ -24,20 +24,25 @@ export default {
 		feather.replace();
 	},
 	methods: {
-		// showModal() {
-		// 	if (this.modal) {
-		// 		// Stop screen scrolling
-		// 		document
-		// 			.getElementsByTagName('html')[0]
-		// 			.classList.remove('overflow-y-hidden');
-		// 		this.modal = false;
-		// 	} else {
-		// 		document
-		// 			.getElementsByTagName('html')[0]
-		// 			.classList.add('overflow-y-hidden');
-		// 		this.modal = true;
-		// 	}
-		// },
+		
+		showModal() {
+			if (this.modal) {
+				// Stop screen scrolling
+				document
+					.getElementsByTagName('html')[0]
+					.classList.remove('overflow-y-hidden');
+				document.getElementById("key").value='';
+				document.getElementById("error").innerHTML = "";
+				this.modal = false;
+			} else {
+				document
+					.getElementsByTagName('html')[0]
+					.classList.add('overflow-y-hidden');
+				document.getElementById('key').value='';
+				document.getElementById('error').innerHTML = "";
+				this.modal = true;
+			}
+		},
 	},
 };
 </script>
@@ -58,12 +63,13 @@ export default {
 			>
 				An UX/UI Designer
 			</p>
-			<!-- <div class="flex justify-center sm:block cursor-pointer" @click="showModal()">
+			<div class="flex justify-center sm:block cursor-pointer" @click="showModal()">
 				<a
 					class="flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-red-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-red-50 focus:ring-1 focus:ring-red-900 hover:bg-red-500 text-gray-500 hover:text-white duration-500"
 					aria-label="Download Resume"
 					target="_blank"
 				>
+				<!-- href="/files/UX-UI-Designer-Phan-Hoang-Vy-Thao.pdf" -->
 					<i
 						data-feather="paperclip"
 						class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6 duration-100"
@@ -73,7 +79,7 @@ export default {
 						>View CV</span
 					></a
 				>
-			</div> -->
+			</div>
 		</div>
 
 		<!-- Banner right illustration -->
@@ -90,12 +96,12 @@ export default {
 		</div>
 
 		<!-- Hire me modal -->
-		<!-- <ViewCVModal
+		<ViewCVModal
 			:showModal="showModal"
 			:modal="modal"
-			:categories="categories"
-			aria-modal="Hire Me Modal"
-		/> -->
+			aria-modal="View CV Modal"
+			@keyup.esc="$emit('close')"
+		/>
 	</section>
 </template>
 

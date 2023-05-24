@@ -1,6 +1,6 @@
 <script>
 import ThemeSwitcher from '../ThemeSwitcher';
-import HireMeModal from '../HireMeModal.vue';
+// import ViewCVModal from '../ViewCVModal.vue';
 import feather from 'feather-icons';
 import AppHeaderLinks from './AppHeaderLinks.vue';
 import Button from '../reusable/Button.vue';
@@ -8,7 +8,7 @@ import Button from '../reusable/Button.vue';
 export default {
 	components: {
 		ThemeSwitcher,
-		HireMeModal,
+		// ViewCVModal,
 		AppHeaderLinks,
 		Button,
 	},
@@ -164,12 +164,12 @@ export default {
 		</div>
 
 		<!-- Hire me modal -->
-		<HireMeModal
+		<!-- <ViewCVModal
 			:showModal="showModal"
 			:modal="modal"
 			:categories="categories"
 			aria-modal="Hire Me Modal"
-		/>
+		/> -->
 	</nav>
 </template>
 

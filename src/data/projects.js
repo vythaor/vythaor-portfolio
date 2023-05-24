@@ -3,6 +3,13 @@
 
 const projects = [
 	{
+		id: 13,
+		title: 'Car Control Application',
+		category: 'Freelance Project',
+		img: require('@/assets/images/project-13.png'),
+		isFeature: true
+	},
+	{
 		id: 11,
 		title: '5 Phut Thuoc Bai - Landing Page',
 		category: 'Freelance Project',
@@ -42,7 +49,7 @@ const projects = [
 		title: 'Behap Website',
 		category: 'Freelance Project',
 		img: require('@/assets/images/project-6.png'),
-		isFeature: true
+		isFeature: false
 	},
 	{
 		id: 5,
