@@ -74,6 +74,11 @@ export default {
 			>
 				{{ bio.bio }}
 		</div>
+			<div class="w-full sm:w-3/4 mt-10">
+				<div class="leading-loose font-general-regular text-ternary-dark dark:text-ternary-light text-lg mb-2">Wanna some music? Here is one of my favorite songs (when I'm on a deadlines :D ):
+				</div>
+				<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0TDLuuLlV54CkRRUOahJb4?utm_source=generator&theme=0" width="100%" height="85" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+			</div>
 		</div>
 	</div>
 	<div class="mt-10 sm:mt-20">
