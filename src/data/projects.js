@@ -10,6 +10,13 @@ const projects = [
 		isFeature: true
 	},
 	{
+		id: 12,
+		title: 'Drone Control Application',
+		category: 'Freelance Project',
+		img: require('@/assets/images/project-12.png'),
+		isFeature: true
+	},
+	{
 		id: 11,
 		title: '5 Phut Thuoc Bai - Landing Page',
 		category: 'Freelance Project',
@@ -21,7 +28,7 @@ const projects = [
 		title: 'iRobot - Control Vacuum Application',
 		category: 'Freelance Project',
 		img: require('@/assets/images/project-10.png'),
-		isFeature: true
+		isFeature: false
 	},
 	{
 		id: 9,

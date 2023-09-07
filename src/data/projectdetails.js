@@ -95,6 +95,84 @@ const projectdetails = [
             ],
         },
 	},
+     //project 12
+	{
+		id: 12,
+		singleProjectHeader: {
+            singleProjectTitle: 'Drone Control Application ',
+            singleProjectDate: 'February 2023',
+            singleProjectTag: 'Freelance Project',
+        },
+        projectImages: [
+            {
+                id: 12,
+                title: 'Drone Control',
+                img: require('@/assets/images/project-12/img-1.png'),
+            }
+        ],
+        projectInfo: {
+            clientHeading: 'About Client',
+            companyInfos: [
+                {
+                    id: 1,
+                    title: 'Name',
+                    details: 'Personal Client',
+                },
+                {
+                    id: 2,
+                    title: 'Appstore',
+                    details: `In development`,
+                }
+            ],
+            technologies: [
+                {
+                    title: 'Tools & Technologies',
+                    tools: [
+                        'Figma',
+                        'Photoshop',
+                        'Illustrator'
+                    ],
+                    techs: [
+                        'UI Design',
+                        'UX Design'
+                    ]
+                },
+            ],
+            projectDetailsHeading: 'Project Goals',
+            projectDetails: [
+                {
+                    id: 1,
+                    details:
+                        'I intend to explain how Drone Control works in a video showcasing the UX/UI of the app. It will take some practice but I hope it is worth waiting for.',
+                },
+            ],
+        },
+        relatedProject: {
+            relatedProjectsHeading: 'Related Projects',
+            relatedProjects: [
+                {
+                    id: 9,
+                    title: 'NFT Marketplace',
+                    img: require('@/assets/images/project-9.png'),
+                },
+                {
+                    id: 8,
+                    title: 'Luar Application',
+                    img: require('@/assets/images/project-8.png'),
+                },
+                {
+                    id: 7,
+                    title: 'Clean Up',
+                    img: require('@/assets/images/project-7.png'),
+                },
+                {
+                    id: 6,
+                    title: 'Behap Website',
+                    img: require('@/assets/images/project-6.png'),
+                },
+            ],
+        },
+	},
      //project 11
 	{
 		id: 11,
