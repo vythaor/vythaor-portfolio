@@ -29,7 +29,7 @@ export default {
 					id: 4,
 					name: 'Instagram',
 					icon: 'instagram',
-					url: 'https://www.figma.com/file/FTWUF7q2XTTZlrwLVD9iAx/vythaor---Portfolio?node-id=507%3A32&t=cgkDMV7qHZIF6fuY-1',
+					url: 'https://www.instagram.com/2amstudio.vn',
 				},
 			],
 		};
