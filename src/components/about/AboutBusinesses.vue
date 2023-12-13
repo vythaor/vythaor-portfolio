@@ -18,6 +18,12 @@ export default {
 					icon: 'shopping-bag',
                     link: 'https://shopee.vn/shihorou'
 				},
+				{
+					id: 3,
+					title: `<p class="text-left">Web Development</p><span class="mt-2 text-left block text-base text-ternary-dark dark:text-ternary-light">Coding is exciting and I still enjoy it</span>`,
+					icon: 'github',
+                    link: 'https://github.com/vythaor'
+				},
 			],
 		};
 	},
@@ -37,7 +43,7 @@ export default {
 		>
 			{{ businessHeading }}
 		</p>
-	<div class="grid md:grid-cols-2 sm:grid-cols-1 mt-10 sm:mt-14 gap-2">
+	<div class="grid md:grid-cols-2 sm:grid-cols-1 mt-10 sm:mt-14 gap-2 ">
         <div
             v-for="business in business"
             :key="business.id"
@@ -54,9 +60,8 @@ export default {
                         class="w-5 sm:w-8 h-5 sm:h-8 mr-4"
                     ></i>
                     <span
-                        class="font-general-medium text-xl sm:text-xl hover:text-red-500 dark:hover:text-red-400"
+                        class="font-general-medium text-xl sm:text-xl hover:text-red-500 dark:hover:text-red-400" v-html="business.title"
                     >
-                        {{business.title}}
                     </span>
                 </div>
             </a>

@@ -6,11 +6,11 @@ export default {
 	data() {
 		return {
 			socials: [
-				{
+			{
 					id: 1,
-					name: 'Figma',
-					icon: 'figma',
-					url: 'https://www.figma.com/file/FTWUF7q2XTTZlrwLVD9iAx/vythaor---Portfolio?node-id=507%3A32&t=cgkDMV7qHZIF6fuY-1',
+					name: 'Linkedin',
+					icon: 'linkedin',
+					url: 'https://linkedin.com/in/vythaor',
 				},
 				{
 					id: 2,
@@ -21,15 +21,15 @@ export default {
 				},
 				{
 					id: 3,
-					name: 'Dribbble',
-					icon: 'dribbble',
-					url: 'https://dribbble.com/thetransparentmoon',
+					name: 'Github',
+					icon: 'github',
+					url: 'https://github.com/vythaor',
 				},
 				{
 					id: 4,
-					name: 'Linkedin',
-					icon: 'linkedin',
-					url: 'https://linkedin.com/in/vythaor',
+					name: 'Instagram',
+					icon: 'instagram',
+					url: 'https://www.figma.com/file/FTWUF7q2XTTZlrwLVD9iAx/vythaor---Portfolio?node-id=507%3A32&t=cgkDMV7qHZIF6fuY-1',
 				},
 			],
 		};

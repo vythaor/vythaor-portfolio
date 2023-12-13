@@ -39,6 +39,11 @@ export default {
 					title: 'Blend and Retouch',
 					img: require('@/assets/images/brands/image.png'),
 				},
+				{
+					id: 7,
+					title: 'Website Develop',
+					img: require('@/assets/images/brands/dev.png'),
+				},
 			],
 		};
 	},

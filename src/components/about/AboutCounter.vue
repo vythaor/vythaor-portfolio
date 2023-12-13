@@ -26,7 +26,7 @@ export default {
 				<counter
 					ref="counter"
 					:startAmount="0"
-					:endAmount="3"
+					:endAmount="4"
 					:duration="1"
 					suffix="+"
 					:autoinit="true"
@@ -63,7 +63,7 @@ export default {
 				<counter
 					ref="counter"
 					:startAmount="0"
-					:endAmount="367"
+					:endAmount="400"
 					:duration="1"
 					suffix="+"
 					:autoinit="true"
@@ -82,7 +82,7 @@ export default {
 				<counter
 					ref="counter"
 					:startAmount="0"
-					:endAmount="15"
+					:endAmount="20"
 					:duration="1"
 					suffix="+"
 					:autoinit="true"

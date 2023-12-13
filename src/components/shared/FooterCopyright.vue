@@ -4,7 +4,7 @@ export default {
 		return {
 			copyrightDate: new Date().getFullYear(),
 			projectName: 'Sherry\'s Portfolio',
-			author: 'Sherry (vythaor)',
+			author: 'vythaor',
 		};
 	},
 };
@@ -22,15 +22,12 @@ export default {
 				{{ projectName }}
 		</span>	
 			. Developed by
-			<router-link
-				to="/about"
-			>
 				<a
 					target="__blank"
-					class="font-general-medium text-secondary-dark dark:text-secondary-light uppercase hover:underline hover:text-red-600 dark:hover:text-red-300 duration-500"
+					href="https://github.com/vythaor"
+					class="font-general-medium text-secondary-dark dark:text-secondary-light hover:underline hover:text-red-600 dark:hover:text-red-300 duration-500"
 					>{{ author }}</a
 				>
-			</router-link>
 		</div>
 	</div>
 </template>
