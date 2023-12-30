@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHashHistory } from 'vue-router';
 import Home from '../views/Home.vue';
 import NotFound from '../views/NotFound.vue';
 
@@ -69,8 +69,8 @@ const routes = [
 ];
 
 const router = createRouter({
-	// history: createWebHashHistory(process.env.BASE_URL),
-	history: createWebHistory(process.env.BASE_URL),
+	history: createWebHashHistory(process.env.BASE_URL),
+	// history: createWebHistory(process.env.BASE_URL),
 	routes,
 	scrollBehavior() {
 		document.getElementById('app').scrollIntoView();
