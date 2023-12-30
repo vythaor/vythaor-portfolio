@@ -132,8 +132,7 @@ export default {
         </div>
       </div>
     </div>
-  </div>
-  <div
+	<div
     class="leading-loose max-w-xl m-4 p-7 border border-ternary-light dark:border-ternary-dark shadow-sm rounded-lg mb-6 cursor-pointer dark:bg-secondary-light flex flex-row"
   >
     <div>
@@ -182,5 +181,6 @@ export default {
         </a>
       </div>
     </div>
+  </div>
   </div>
 </template>
