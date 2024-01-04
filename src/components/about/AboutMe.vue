@@ -11,7 +11,7 @@ export default {
         {
           id: 2,
           bio: `Now I am a UX/UI Designer and I really enjoy my work. 
-				In the future, In the future, I aim to work as a Product Design Specialist.`,
+				In the future, I aim to work as a Product Design Specialist.`,
         },
       ],
       educations: [
