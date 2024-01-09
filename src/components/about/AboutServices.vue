@@ -31,16 +31,21 @@ export default {
 				},
 				{
 					id: 5,
-					title: 'Photo Editing, Photoshop',
+					title: 'Photography',
 					img: require('@/assets/images/brands/camera.png'),
 				},
 				{
 					id: 6,
-					title: 'Blend and Retouch',
-					img: require('@/assets/images/brands/image.png'),
+					title: 'Photo Editing, Photoshop',
+					img: require('@/assets/images/brands/picture-editing.png'),
 				},
 				{
 					id: 7,
+					title: 'Blend and Retouch',
+					img: require('@/assets/images/brands/photo-editing.png'),
+				},
+				{
+					id: 8,
 					title: 'Website Develop',
 					img: require('@/assets/images/brands/dev.png'),
 				},
