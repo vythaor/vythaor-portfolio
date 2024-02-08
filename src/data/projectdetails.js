@@ -40,11 +40,6 @@ const projectdetails = [
                     title: 'Name',
                     details: 'Personal Client',
                 },
-                {
-                    id: 2,
-                    title: 'Appstore',
-                    details: `In development`,
-                }
             ],
             technologies: [
                 {
@@ -118,11 +113,6 @@ const projectdetails = [
                     title: 'Name',
                     details: 'Personal Client',
                 },
-                {
-                    id: 2,
-                    title: 'Appstore',
-                    details: `In development`,
-                }
             ],
             technologies: [
                 {
@@ -196,11 +186,6 @@ const projectdetails = [
                     title: 'Name',
                     details: 'An outsource team',
                 },
-                {
-                    id: 2,
-                    title: 'Client site',
-                    details: `<a href="https://5phutthuocbai.com/" class="text-blue-500" target="_blank">5phutthuocbai</a>`,
-                }
             ],
             technologies: [
                 {
@@ -294,11 +279,6 @@ const projectdetails = [
                     title: 'Name',
                     details: 'Personal customer',
                 },
-                {
-                    id: 2,
-                    title: 'App store',
-                    details: `<a href="https://apps.apple.com/gb/app/cleaning-vacuum-app/id1644300826" class="text-blue-500" target="_blank">Cleaning vacuum app</a>`,
-                }
             ],
             technologies: [
                 {
@@ -632,11 +612,6 @@ const projectdetails = [
                     title: 'Name',
                     details: 'Personal client',
                 },
-                {
-                    id: 2,
-                    title: 'App store',
-                    details: `<a href="https://apps.apple.com/gb/app/phone-cleaner-cleanup-storage/id1620677134" class="text-blue-500" target="_blank">Phone Cleaner: Cleanup Storage</a>`,
-                }
             ],
             technologies: [
                 {
