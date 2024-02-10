@@ -2,9 +2,268 @@
 // Note: Here we are getting data from a js file, but in a different project I'll be fetching these projects from some srt of APIs.
 
 const projectdetails = [
-    //project 13
+    //project 15
+	{
+		id: 15,
+		singleProjectHeader: {
+            singleProjectTitle: 'Hoa Tieu Tan Cang',
+            singleProjectDate: 'June - Aug, 2023',
+            singleProjectTag: 'Freelance Project',
+        },
+        projectImages: [
+            {
+                id: 5,
+                title: 'Image 1',
+                img: require('@/assets/images/project-15/img-1.png'),
+            },
+            {
+                id: 2,
+                title: 'Image 2',
+                img: require('@/assets/images/project-15/img-2.png'),
+            },
+            {
+                id: 3,
+                title: 'Image 3',
+                img: require('@/assets/images/project-15/img-3.png'),
+            },
+            {
+                id: 4,
+                title: 'Image 4',
+                img: require('@/assets/images/project-15/img-4.png'),
+            },
+            {
+                id: 5,
+                title: 'Image 4',
+                img: require('@/assets/images/project-15/img-5.png'),
+            },
+            {
+                id: 6,
+                title: 'Image 4',
+                img: require('@/assets/images/project-15/img-6.png'),
+            },
+            {
+                id:76,
+                title: 'Image 7',
+                img: require('@/assets/images/project-15/img-7.png'),
+            }
+        ],
+        projectInfo: {
+            clientHeading: 'About Client',
+            companyInfos: [
+                {
+                    id: 1,
+                    title: 'Name',
+                    details: `<a href="http://tancanghiepphuoc.com.vn/cong-ty-thanh-vien/Pages/cong-ty-tnhh-mtv-hoa-tieu-tan-cang.aspx" class="text-blue-500" target="_blank">TAN CANG PILOT LLC</a>`,
+                },
+                {
+                    id: 2,
+                    title: 'Production link',
+                    details: `<a href="https://tancangpilot.com.vn/" class="text-blue-500" target="_blank">Tan cang pilot</a>`,
+                },
+                {
+                    id: 3,
+                    title: 'News',
+                    details: `<a href="https://baohaiquanvietnam.vn/tin-tuc/cong-ty-hoa-tieu-tan-cang-chinh-thuc-ra-mat-website-moi" class="text-blue-500" target="_blank">Release Announcement</a>`,
+                },
+            ],
+            technologies: [
+                {
+                    title: 'Tools & Technologies',
+                    tools: [
+                        'Figma',
+                        'Photoshop',
+                        'Illustrator'
+                    ],
+                    techs: [
+                        'UI Design',
+                        'UX Design'
+                    ]
+                },
+            ],
+            projectDetailsHeading: 'Overview',
+            projectDetails: [
+                {
+                    id: 1,
+                    details:
+                        'As the sole designer on this project, my role involves translating requirements from the Business Analyst into visual designs and seamlessly handing them off to the developers.',
+                },
+            ],
+        },
+        relatedProject: {
+            relatedProjectsHeading: 'Related Projects',
+            relatedProjects: [
+                {
+                    id: 9,
+                    title: 'NFT Marketplace',
+                    img: require('@/assets/images/project-9.png'),
+                },
+                {
+                    id: 8,
+                    title: 'Luar Application',
+                    img: require('@/assets/images/project-8.png'),
+                },
+                {
+                    id: 7,
+                    title: 'Clean Up',
+                    img: require('@/assets/images/project-7.png'),
+                },
+                {
+                    id: 6,
+                    title: 'Behap Website',
+                    img: require('@/assets/images/project-6.png'),
+                },
+            ],
+        },
+	},
+    //project 14
+	{
+		id: 14,
+		singleProjectHeader: {
+            singleProjectTitle: 'Answer AI',
+            singleProjectDate: 'June 2023',
+            singleProjectTag: 'Freelance Project',
+        },
+        projectImages: [
+            {
+                id: 12,
+                title: 'Drone Control',
+                img: require('@/assets/images/project-12/img-1.png'),
+            }
+        ],
+        projectInfo: {
+            clientHeading: 'About Client',
+            companyInfos: [
+                {
+                    id: 1,
+                    title: 'Name',
+                    details: 'Personal Client',
+                },
+            ],
+            technologies: [
+                {
+                    title: 'Tools & Technologies',
+                    tools: [
+                        'Figma',
+                        'Photoshop',
+                        'Illustrator'
+                    ],
+                    techs: [
+                        'UI Design',
+                        'UX Design'
+                    ]
+                },
+            ],
+            projectDetailsHeading: 'Project Goals',
+            projectDetails: [
+                {
+                    id: 1,
+                    details:
+                        'I intend to explain how Drone Control works in a video showcasing the UX/UI of the app. It will take some practice but I hope it is worth waiting for.',
+                },
+            ],
+        },
+        relatedProject: {
+            relatedProjectsHeading: 'Related Projects',
+            relatedProjects: [
+                {
+                    id: 9,
+                    title: 'NFT Marketplace',
+                    img: require('@/assets/images/project-9.png'),
+                },
+                {
+                    id: 8,
+                    title: 'Luar Application',
+                    img: require('@/assets/images/project-8.png'),
+                },
+                {
+                    id: 7,
+                    title: 'Clean Up',
+                    img: require('@/assets/images/project-7.png'),
+                },
+                {
+                    id: 6,
+                    title: 'Behap Website',
+                    img: require('@/assets/images/project-6.png'),
+                },
+            ],
+        },
+	},
+      //project 13
 	{
 		id: 13,
+		singleProjectHeader: {
+            singleProjectTitle: 'Mastodon',
+            singleProjectDate: 'March 2023',
+            singleProjectTag: 'Freelance Project',
+        },
+        projectImages: [
+            {
+                id: 12,
+                title: 'Drone Control',
+                img: require('@/assets/images/project-12/img-1.png'),
+            }
+        ],
+        projectInfo: {
+            clientHeading: 'About Client',
+            companyInfos: [
+                {
+                    id: 1,
+                    title: 'Name',
+                    details: 'Personal Client',
+                },
+            ],
+            technologies: [
+                {
+                    title: 'Tools & Technologies',
+                    tools: [
+                        'Figma',
+                        'Photoshop',
+                        'Illustrator'
+                    ],
+                    techs: [
+                        'UI Design',
+                        'UX Design'
+                    ]
+                },
+            ],
+            projectDetailsHeading: 'Project Goals',
+            projectDetails: [
+                {
+                    id: 1,
+                    details:
+                        'I intend to explain how Drone Control works in a video showcasing the UX/UI of the app. It will take some practice but I hope it is worth waiting for.',
+                },
+            ],
+        },
+        relatedProject: {
+            relatedProjectsHeading: 'Related Projects',
+            relatedProjects: [
+                {
+                    id: 9,
+                    title: 'NFT Marketplace',
+                    img: require('@/assets/images/project-9.png'),
+                },
+                {
+                    id: 8,
+                    title: 'Luar Application',
+                    img: require('@/assets/images/project-8.png'),
+                },
+                {
+                    id: 7,
+                    title: 'Clean Up',
+                    img: require('@/assets/images/project-7.png'),
+                },
+                {
+                    id: 6,
+                    title: 'Behap Website',
+                    img: require('@/assets/images/project-6.png'),
+                },
+            ],
+        },
+	},
+    //project 12
+	{
+		id: 12,
 		singleProjectHeader: {
             singleProjectTitle: 'Car Control Application ',
             singleProjectDate: 'March 2023',
@@ -61,79 +320,6 @@ const projectdetails = [
                     id: 1,
                     details:
                         'Car-controlling application is designed to provide seamless control over your vehicle through your smartphone. Compatible with a wide range of car models, this app connects to your car\'s onboard system via Bluetooth or an internet connection, allowing you to access and manage various functions remotely.',
-                },
-            ],
-        },
-        relatedProject: {
-            relatedProjectsHeading: 'Related Projects',
-            relatedProjects: [
-                {
-                    id: 9,
-                    title: 'NFT Marketplace',
-                    img: require('@/assets/images/project-9.png'),
-                },
-                {
-                    id: 8,
-                    title: 'Luar Application',
-                    img: require('@/assets/images/project-8.png'),
-                },
-                {
-                    id: 7,
-                    title: 'Clean Up',
-                    img: require('@/assets/images/project-7.png'),
-                },
-                {
-                    id: 6,
-                    title: 'Behap Website',
-                    img: require('@/assets/images/project-6.png'),
-                },
-            ],
-        },
-	},
-     //project 12
-	{
-		id: 12,
-		singleProjectHeader: {
-            singleProjectTitle: 'Drone Control Application ',
-            singleProjectDate: 'February 2023',
-            singleProjectTag: 'Freelance Project',
-        },
-        projectImages: [
-            {
-                id: 12,
-                title: 'Drone Control',
-                img: require('@/assets/images/project-12/img-1.png'),
-            }
-        ],
-        projectInfo: {
-            clientHeading: 'About Client',
-            companyInfos: [
-                {
-                    id: 1,
-                    title: 'Name',
-                    details: 'Personal Client',
-                },
-            ],
-            technologies: [
-                {
-                    title: 'Tools & Technologies',
-                    tools: [
-                        'Figma',
-                        'Photoshop',
-                        'Illustrator'
-                    ],
-                    techs: [
-                        'UI Design',
-                        'UX Design'
-                    ]
-                },
-            ],
-            projectDetailsHeading: 'Project Goals',
-            projectDetails: [
-                {
-                    id: 1,
-                    details:
-                        'I intend to explain how Drone Control works in a video showcasing the UX/UI of the app. It will take some practice but I hope it is worth waiting for.',
                 },
             ],
         },

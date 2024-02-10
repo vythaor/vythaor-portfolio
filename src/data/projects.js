@@ -3,17 +3,31 @@
 
 const projects = [
 	{
-		id: 13,
+		id: 15,
+		title: 'Hoa Tieu Tan Cang',
+		category: 'Freelance Project',
+		img: require('@/assets/images/project-15.png'),
+		isFeature: true
+	},
+	// {
+	// 	id: 14,
+	// 	title: 'Answer AI',
+	// 	category: 'Freelance Project',
+	// 	img: require('@/assets/images/project-12.png'),
+	// 	isFeature: true
+	// },
+	// {
+	// 	id: 13,
+	// 	title: 'Mastodon',
+	// 	category: 'Freelance Project',
+	// 	img: require('@/assets/images/project-12.png'),
+	// 	isFeature: true
+	// },
+	{
+		id: 12,
 		title: 'Car Control Application',
 		category: 'Freelance Project',
 		img: require('@/assets/images/project-13.png'),
-		isFeature: true
-	},
-	{
-		id: 12,
-		title: 'Drone Control Application',
-		category: 'Freelance Project',
-		img: require('@/assets/images/project-12.png'),
 		isFeature: true
 	},
 	{
@@ -28,7 +42,7 @@ const projects = [
 		title: 'iRobot - Control Vacuum Application',
 		category: 'Freelance Project',
 		img: require('@/assets/images/project-10.png'),
-		isFeature: false
+		isFeature: true
 	},
 	{
 		id: 9,
@@ -42,7 +56,7 @@ const projects = [
 		title: 'Luar Application',
 		category: 'Personal Project',
 		img: require('@/assets/images/project-8.png'),
-		isFeature: true
+		isFeature: false
 	},
 	{
 		id: 7,
