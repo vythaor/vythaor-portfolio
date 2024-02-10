@@ -135,6 +135,7 @@ export default {
 					/>
 				</div> -->
 				<ProjectsFilter @filter="selectedCategory = $event" />
+				<div class="pt-4 text-sm dark:text-ternary-light text-ternary-dark">There are 10 other projects that I cannot share publicly. Please contact me to discuss them privately.</div>
 			</div>
 		</div>
 

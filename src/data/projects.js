@@ -4,30 +4,30 @@
 const projects = [
 	{
 		id: 15,
-		title: 'Hoa Tieu Tan Cang',
+		title: 'Hoa Tieu Tan Cang Website',
 		category: 'Freelance Project',
 		img: require('@/assets/images/project-15.png'),
 		isFeature: true
 	},
-	// {
-	// 	id: 14,
-	// 	title: 'Answer AI',
-	// 	category: 'Freelance Project',
-	// 	img: require('@/assets/images/project-12.png'),
-	// 	isFeature: true
-	// },
-	// {
-	// 	id: 13,
-	// 	title: 'Mastodon',
-	// 	category: 'Freelance Project',
-	// 	img: require('@/assets/images/project-12.png'),
-	// 	isFeature: true
-	// },
+	{
+		id: 14,
+		title: 'AI Chat Application',
+		category: 'Freelance Project',
+		img: require('@/assets/images/project-14.png'),
+		isFeature: true
+	},
+	{
+		id: 13,
+		title: 'Social Media Application',
+		category: 'Freelance Project',
+		img: require('@/assets/images/project-13.png'),
+		isFeature: true
+	},
 	{
 		id: 12,
 		title: 'Car Control Application',
 		category: 'Freelance Project',
-		img: require('@/assets/images/project-13.png'),
+		img: require('@/assets/images/project-12.png'),
 		isFeature: true
 	},
 	{
@@ -39,7 +39,7 @@ const projects = [
 	},
 	{
 		id: 10,
-		title: 'iRobot - Control Vacuum Application',
+		title: 'Vacuum Robot Control Application',
 		category: 'Freelance Project',
 		img: require('@/assets/images/project-10.png'),
 		isFeature: true
@@ -53,7 +53,7 @@ const projects = [
 	},
 	{
 		id: 8,
-		title: 'Luar Application',
+		title: 'Luar - Plant Social Club',
 		category: 'Personal Project',
 		img: require('@/assets/images/project-8.png'),
 		isFeature: false
@@ -63,7 +63,7 @@ const projects = [
 		title: 'Clean Up - Clean Phone Storage Application',
 		category: 'Freelance Project',
 		img: require('@/assets/images/project-7.png'),
-		isFeature: true
+		isFeature: false
 	},
 	{
 		id: 6,
@@ -77,7 +77,7 @@ const projects = [
 		title: 'GoxGreen Web/App',
 		category: 'Freelance Project',
 		img: require('@/assets/images/project-5.png'),
-		isFeature: true
+		isFeature: false
 	},
 	{
 		id: 4,

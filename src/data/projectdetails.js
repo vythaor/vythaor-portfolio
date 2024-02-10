@@ -6,13 +6,13 @@ const projectdetails = [
 	{
 		id: 15,
 		singleProjectHeader: {
-            singleProjectTitle: 'Hoa Tieu Tan Cang',
+            singleProjectTitle: 'Hoa Tieu Tan Cang Website',
             singleProjectDate: 'June - Aug, 2023',
             singleProjectTag: 'Freelance Project',
         },
         projectImages: [
             {
-                id: 5,
+                id: 1,
                 title: 'Image 1',
                 img: require('@/assets/images/project-15/img-1.png'),
             },
@@ -42,7 +42,7 @@ const projectdetails = [
                 img: require('@/assets/images/project-15/img-6.png'),
             },
             {
-                id:76,
+                id: 7,
                 title: 'Image 7',
                 img: require('@/assets/images/project-15/img-7.png'),
             }
@@ -95,22 +95,22 @@ const projectdetails = [
                 {
                     id: 9,
                     title: 'NFT Marketplace',
-                    img: require('@/assets/images/project-9.png'),
+                    img: require('@/assets/images/project-11.png'),
                 },
                 {
                     id: 8,
                     title: 'Luar Application',
-                    img: require('@/assets/images/project-8.png'),
+                    img: require('@/assets/images/project-9.png'),
                 },
                 {
                     id: 7,
                     title: 'Clean Up',
-                    img: require('@/assets/images/project-7.png'),
+                    img: require('@/assets/images/project-6.png'),
                 },
                 {
                     id: 6,
                     title: 'Behap Website',
-                    img: require('@/assets/images/project-6.png'),
+                    img: require('@/assets/images/project-1.png'),
                 },
             ],
         },
@@ -119,15 +119,30 @@ const projectdetails = [
 	{
 		id: 14,
 		singleProjectHeader: {
-            singleProjectTitle: 'Answer AI',
+            singleProjectTitle: 'AI Chat Application',
             singleProjectDate: 'June 2023',
             singleProjectTag: 'Freelance Project',
         },
         projectImages: [
             {
-                id: 12,
+                id: 1,
                 title: 'Drone Control',
-                img: require('@/assets/images/project-12/img-1.png'),
+                img: require('@/assets/images/project-14/img-1.png'),
+            },
+            {
+                id: 2,
+                title: 'Drone Control',
+                img: require('@/assets/images/project-14/img-2.png'),
+            },
+            {
+                id: 3,
+                title: 'Drone Control',
+                img: require('@/assets/images/project-14/img-3.png'),
+            },
+            {
+                id: 4,
+                title: 'Drone Control',
+                img: require('@/assets/images/project-14/img-4.png'),
             }
         ],
         projectInfo: {
@@ -158,7 +173,7 @@ const projectdetails = [
                 {
                     id: 1,
                     details:
-                        'I intend to explain how Drone Control works in a video showcasing the UX/UI of the app. It will take some practice but I hope it is worth waiting for.',
+                        'The project aims to develop an AI Chat Application proficient in solving diverse math problems, answering general knowledge questions, and be a chatbot assistance.',
                 },
             ],
         },
@@ -166,24 +181,24 @@ const projectdetails = [
             relatedProjectsHeading: 'Related Projects',
             relatedProjects: [
                 {
-                    id: 9,
+                    id: 13,
                     title: 'NFT Marketplace',
-                    img: require('@/assets/images/project-9.png'),
+                    img: require('@/assets/images/project-13.png'),
                 },
                 {
-                    id: 8,
+                    id: 12,
                     title: 'Luar Application',
-                    img: require('@/assets/images/project-8.png'),
+                    img: require('@/assets/images/project-12.png'),
+                },
+                {
+                    id: 10,
+                    title: 'iRobot',
+                    img: require('@/assets/images/project-10.png'),
                 },
                 {
                     id: 7,
                     title: 'Clean Up',
                     img: require('@/assets/images/project-7.png'),
-                },
-                {
-                    id: 6,
-                    title: 'Behap Website',
-                    img: require('@/assets/images/project-6.png'),
                 },
             ],
         },
@@ -198,9 +213,9 @@ const projectdetails = [
         },
         projectImages: [
             {
-                id: 12,
-                title: 'Drone Control',
-                img: require('@/assets/images/project-12/img-1.png'),
+                id: 1,
+                title: 'Image 1',
+                img: require('@/assets/images/project-13.png'),
             }
         ],
         projectInfo: {
@@ -231,7 +246,7 @@ const projectdetails = [
                 {
                     id: 1,
                     details:
-                        'I intend to explain how Drone Control works in a video showcasing the UX/UI of the app. It will take some practice but I hope it is worth waiting for.',
+                        `A lite application of Mastodon - an open-source social media platform that operates on a decentralized network of independently operated servers. Base on the concept of Mastodon instances are interconnected, allowing users on one server to interact with users on other servers within the Mastodon network.`,
                 },
             ],
         },
@@ -273,22 +288,22 @@ const projectdetails = [
             {
                 id: 13,
                 title: 'Car Control',
-                img: require('@/assets/images/project-13/img-1.png'),
+                img: require('@/assets/images/project-12/img-1.png'),
             },
             {
                 id: 13,
                 title: 'Car Control',
-                img: require('@/assets/images/project-13/img-2.png'),
+                img: require('@/assets/images/project-12/img-2.png'),
             },
             {
                 id: 13,
                 title: 'Car Control',
-                img: require('@/assets/images/project-13/img-3.png'),
+                img: require('@/assets/images/project-12/img-3.png'),
             },
             {
                 id: 13,
                 title: 'Car Control',
-                img: require('@/assets/images/project-13/img-4.png'),
+                img: require('@/assets/images/project-12/img-4.png'),
             },
         ],
         projectInfo: {
@@ -426,7 +441,7 @@ const projectdetails = [
 	{
 		id: 10,
 		singleProjectHeader: {
-            singleProjectTitle: 'iRobot - Vacuum Control Application',
+            singleProjectTitle: 'Vacuum Robot Control Application',
             singleProjectDate: 'October 2022',
             singleProjectTag: 'Freelance Project',
         },
@@ -605,7 +620,7 @@ const projectdetails = [
     {
         id: 8,
         singleProjectHeader: {
-            singleProjectTitle: 'Luar Application',
+            singleProjectTitle: 'Luar - Plant Social Club',
             singleProjectDate: 'May 2022',
             singleProjectTag: 'Personal Project',
         },
@@ -697,7 +712,7 @@ const projectdetails = [
                 {
                     id: 1,
                     title: 'Name',
-                    details: 'Luar - Personal client',
+                    details: 'Luar - Personal Project',
                 },
             ],
             technologies: [

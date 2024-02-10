@@ -19,7 +19,7 @@ export default {
           id: 1,
           title: "Bachelor of Computer Science",
           img: require("@/assets/images/logo-iuh.svg"),
-          time: "Sept 2013 - May 2017",
+          time: "Sep 2013 - May 2017",
           point: "GPA: 2.8/4",
           desc: `My major is Software Engineering. </br>
 					Technical and knowledge: </br>
@@ -158,7 +158,7 @@ export default {
             <i data-feather="clock" class="w-4 h-4"></i>
           </div>
           <div>
-            <span class="font-general-medium ml-2 leading-none">2023</span>
+            <span class="font-general-medium ml-2 leading-none">Dec 2023</span>
           </div>
         </div>
       </div>
