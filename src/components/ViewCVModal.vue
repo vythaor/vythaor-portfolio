@@ -18,7 +18,7 @@ export default {
 		openCV(){
 			var password = document.getElementById('key').value;
 			if(password == "thankyou"){	
-				window.open("../files/UX-UI-Designer-Phan-Hoang-Vy-Thao.pdf");
+				window.open("../vythaor-portfolio/files/UX-UI-Designer-Phan-Hoang-Vy-Thao.pdf");
 				this.showModal()
 			}else{
 				document.getElementById('error').innerHTML = 'Wrong password';
