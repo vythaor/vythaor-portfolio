@@ -164,7 +164,6 @@ const projectdetails = [
                     ],
                     techs: [
                         'UI Design',
-                        'UX Design'
                     ]
                 },
             ],
@@ -207,7 +206,7 @@ const projectdetails = [
 	{
 		id: 13,
 		singleProjectHeader: {
-            singleProjectTitle: 'Mastodon',
+            singleProjectTitle: 'Mastweet - Social Media Application',
             singleProjectDate: 'March 2023',
             singleProjectTag: 'Freelance Project',
         },
@@ -215,7 +214,32 @@ const projectdetails = [
             {
                 id: 1,
                 title: 'Image 1',
-                img: require('@/assets/images/project-13.png'),
+                img: require('@/assets/images/project-13/img-1.png'),
+            },
+            {
+                id: 2,
+                title: 'Image 2',
+                img: require('@/assets/images/project-13/img-2.png'),
+            },
+            {
+                id: 3,
+                title: 'Image 3',
+                img: require('@/assets/images/project-13/img-3.png'),
+            },
+            {
+                id: 4,
+                title: 'Image 4',
+                img: require('@/assets/images/project-13/img-4.png'),
+            },
+            {
+                id: 5,
+                title: 'Image 5',
+                img: require('@/assets/images/project-13/img-5.png'),
+            },
+            {
+                id: 6,
+                title: 'Image 6',
+                img: require('@/assets/images/project-13/img-6.png'),
             }
         ],
         projectInfo: {
@@ -233,7 +257,6 @@ const projectdetails = [
                     tools: [
                         'Figma',
                         'Photoshop',
-                        'Illustrator'
                     ],
                     techs: [
                         'UI Design',
@@ -241,12 +264,12 @@ const projectdetails = [
                     ]
                 },
             ],
-            projectDetailsHeading: 'Project Goals',
+            projectDetailsHeading: 'Overview',
             projectDetails: [
                 {
                     id: 1,
                     details:
-                        `A lite application of Mastodon - an open-source social media platform that operates on a decentralized network of independently operated servers. Base on the concept of Mastodon instances are interconnected, allowing users on one server to interact with users on other servers within the Mastodon network.`,
+                        `Mastweet is based on Mastodon - an open-source social media platform that operates on a decentralized network of independently operated servers. Mastweet uses the Mastodon API and offers functionality similar to Mastodon but with some variations or additional features. `,
                 },
             ],
         },

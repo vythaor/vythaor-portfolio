@@ -18,7 +18,7 @@ const projects = [
 	},
 	{
 		id: 13,
-		title: 'Social Media Application',
+		title: 'Mastweet - Social Media Application',
 		category: 'Freelance Project',
 		img: require('@/assets/images/project-13.png'),
 		isFeature: true
