@@ -20,7 +20,7 @@ export default {
 				},
 				{
 					id: 3,
-					title: `<p class="text-left">Web Development</p><span class="mt-2 text-left block text-base text-ternary-dark dark:text-ternary-light">Coding is exciting and I still enjoy it</span>`,
+					title: `<p class="text-left">Web Development</p><span class="mt-2 text-left block text-base text-ternary-dark dark:text-ternary-dark">Coding is exciting and I still enjoy it</span>`,
 					icon: 'github',
                     link: 'https://github.com/vythaor'
 				},

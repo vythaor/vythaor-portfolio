@@ -83,8 +83,8 @@ export default {
 			</h3>
 			<div
 				class="
-					flex
-					justify-between
+					md:flex
+					md:justify-between
 					border-b border-primary-light
 					dark:border-secondary-dark
 					pb-3

@@ -119,8 +119,11 @@ export default {
         }"
         :navigation="true"
         :modules="modules"
+        class="dark:bg-primary-dark bg-primary-light"
       >
-        <swiper-slide>
+        <swiper-slide 
+        class="dark:bg-primary-dark bg-primary-light"
+        >
           <div>
             <img
               src="@/assets/images/banner/1.png"
@@ -132,7 +135,9 @@ export default {
             </div>
           </div>
         </swiper-slide>
-        <swiper-slide>
+        <swiper-slide
+        class="dark:bg-primary-dark bg-primary-light"
+        >
           <div>
             <img
               src="@/assets/images/banner/2.jpg"
@@ -144,7 +149,9 @@ export default {
             </div>
           </div>
         </swiper-slide>
-        <swiper-slide>
+        <swiper-slide
+        class="dark:bg-primary-dark bg-primary-light"
+        >
           <div>
             <img
               src="@/assets/images/banner/3.jpg"
@@ -156,7 +163,9 @@ export default {
             </div>
           </div>
         </swiper-slide>
-        <swiper-slide>
+        <swiper-slide
+        class="dark:bg-primary-dark bg-primary-light"
+        >
           <div>
             <img
               src="@/assets/images/banner/4.jpeg"
@@ -174,7 +183,9 @@ export default {
             </div>
           </div>
         </swiper-slide>
-        <swiper-slide>
+        <swiper-slide
+        class="dark:bg-primary-dark bg-primary-light"
+        >
           <div>
             <img
               src="@/assets/images/banner/5.png"
@@ -192,7 +203,9 @@ export default {
             </div>
           </div>
         </swiper-slide>
-        <swiper-slide>
+        <swiper-slide
+        class="dark:bg-primary-dark bg-primary-light"
+        >
           <div>
             <video controls class="rounded-md shadow-md">
               <source src="@/assets/images/banner/6.mp4" type="video/mp4" />

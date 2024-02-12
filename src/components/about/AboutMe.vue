@@ -76,10 +76,10 @@ export default {
       Education
     </p>
   </div>
-  <div class="grid flex md:grid-cols-2 gap-4 md:flex-row sm:flex-col">
+  <div class="grid flex md:grid-cols-2 gap-4 md:flex-row sm:flex-col ">
     <div v-for="edu in educations" :key="edu.id" :v-html="edu.id">
       <div
-        class="leading-loose max-w-xl m-4 p-7 border border-ternary-light dark:border-ternary-dark shadow-sm rounded-lg mb-6 cursor-pointer dark:bg-secondary-light flex flex-row"
+        class="text-primary-dark dark:text-primary-light leading-loose max-w-xl m-4 p-7 border border-ternary-light dark:border-ternary-dark shadow-sm rounded-lg mb-6 cursor-pointer dark:bg-secondary-light flex flex-row bg-secondary-light dark:bg-secondary-dark"
       >
         <div>
           <div class="flex flex-row items-center">
@@ -87,7 +87,7 @@ export default {
               <img
                 :src="edu.img"
                 :alt="edu.title"
-                class="rounded-t-xl border-none w-10 sm:w-20 h-10 sm:h-20 mr-4"
+                class="rounded-xl border-none w-10 sm:w-20 h-10 sm:h-20 mr-4"
               />
             </div>
             <div>
@@ -133,7 +133,7 @@ export default {
       </div>
     </div>
 	<div
-    class="leading-loose max-w-xl m-4 p-7 border border-ternary-light dark:border-ternary-dark shadow-sm rounded-lg mb-6 cursor-pointer dark:bg-secondary-light flex flex-row"
+    class="text-primary-dark dark:text-primary-light leading-loose max-w-xl m-4 p-7 border border-ternary-light dark:border-ternary-dark shadow-sm rounded-lg mb-6 cursor-pointer dark:bg-secondary-light flex flex-row bg-secondary-light dark:bg-secondary-dark"
   >
     <div>
       <div class="flex flex-row items-center">
@@ -141,7 +141,7 @@ export default {
           <img
             src="@/assets/images/logo-coursera.png"
             alt="course"
-            class="rounded-t-xl border-none w-10 sm:w-20 h-10 sm:h-20 mr-4"
+            class="rounded-xl bg-white border-none w-10 sm:w-20 h-10 sm:h-20 mr-6"
           />
         </div>
         <div>
@@ -176,7 +176,7 @@ export default {
           <img
             src="@/assets/images/Coursera.png"
             alt="course"
-            class="rounded-t-xl border-none"
+            class="rounded-xl border-none"
           />
         </a>
       </div>
