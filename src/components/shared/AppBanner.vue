@@ -119,7 +119,6 @@ export default {
         }"
         :navigation="true"
         :modules="modules"
-        class="dark:bg-primary-dark bg-primary-light"
       >
         <swiper-slide 
         class="dark:bg-primary-dark bg-primary-light"
