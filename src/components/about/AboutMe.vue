@@ -79,7 +79,7 @@ export default {
   <div class="grid flex md:grid-cols-2 gap-4 md:flex-row sm:flex-col ">
     <div v-for="edu in educations" :key="edu.id" :v-html="edu.id">
       <div
-        class="text-primary-dark dark:text-primary-light leading-loose max-w-xl m-4 p-7 border border-ternary-light dark:border-ternary-dark shadow-sm rounded-lg mb-6 cursor-pointer dark:bg-secondary-light flex flex-row bg-secondary-light dark:bg-secondary-dark"
+        class="text-primary-dark dark:text-primary-light leading-loose max-w-xl m-4 p-7 border border-ternary-light dark:border-ternary-dark shadow-sm rounded-lg mb-6 cursor-pointer flex flex-row bg-secondary-light dark:bg-secondary-dark"
       >
         <div>
           <div class="flex flex-row items-center">
@@ -133,7 +133,7 @@ export default {
       </div>
     </div>
 	<div
-    class="text-primary-dark dark:text-primary-light leading-loose max-w-xl m-4 p-7 border border-ternary-light dark:border-ternary-dark shadow-sm rounded-lg mb-6 cursor-pointer dark:bg-secondary-light flex flex-row bg-secondary-light dark:bg-secondary-dark"
+    class="text-primary-dark dark:text-primary-light leading-loose max-w-xl m-4 p-7 border border-ternary-light dark:border-ternary-dark shadow-sm rounded-lg mb-6 cursor-pointer flex flex-row bg-secondary-light dark:bg-secondary-dark"
   >
     <div>
       <div class="flex flex-row items-center">
