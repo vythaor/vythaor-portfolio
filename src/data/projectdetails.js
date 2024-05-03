@@ -581,13 +581,13 @@ const projectdetails = [
                 {
                     id: 1,
                     title: 'Name',
-                    details: 'Farm Central',
+                    details: 'A crypto company',
                 },
-                {
-                    id: 2,
-                    title: 'Client site',
-                    details: `<a href="https://famcentral.io/" class="text-blue-500" target="_blank">Farm Central</a>`,
-                },
+                // {
+                //     id: 2,
+                //     title: 'Client site',
+                //     details: `<a href="https://famcentral.io/" class="text-blue-500" target="_blank">Farm Central</a>`,
+                // },
             ],
            technologies: [
                 {
