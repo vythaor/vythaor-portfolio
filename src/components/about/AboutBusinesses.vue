@@ -4,7 +4,7 @@ import feather from 'feather-icons';
 export default {
 	data: () => {
 		return {
-			businessHeading: 'Check my other businesses',
+			businessHeading: 'Check my other services',
 			business: [
 				{
 					id: 1,
@@ -14,13 +14,7 @@ export default {
 				},
 				{
 					id: 2,
-					title: 'tudothanhly',
-					icon: 'shopping-bag',
-                    link: 'https://shopee.vn/shihorou'
-				},
-				{
-					id: 3,
-					title: `<p class="text-left">Web Development</p><span class="mt-2 text-left block text-base text-ternary-dark dark:text-ternary-dark">Coding is exciting and I still enjoy it</span>`,
+					title: `<div class="text-left">Web Development</div><div class="mt-2 text-left text-base text-ternary-dark dark:text-ternary-dark">Coding is exciting and I still enjoy it</div>`,
 					icon: 'github',
                     link: 'https://github.com/vythaor'
 				},
@@ -53,7 +47,7 @@ export default {
                 target="_blank"
             >
                 <div 
-                class="w-auto py-8 mr-2 px-10 border border-ternary-light dark:border-ternary-dark shadow-sm rounded-lg mb-8 cursor-pointer dark:bg-secondary-light flex items-center hover:text-red-500 dark:hover:text-red-400"
+                class="w-auto h-[100px] py-8 mr-2 px-10 border border-ternary-light dark:border-ternary-dark shadow-sm rounded-lg mb-8 cursor-pointer dark:bg-secondary-light flex items-center hover:text-red-500 dark:hover:text-red-400"
                 >
                     <i
                         :data-feather="business.icon"
