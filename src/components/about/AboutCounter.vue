@@ -1,18 +1,22 @@
 <script>
-import counter from 'vue3-autocounter';
-export default {
-	components: {
-		counter,
-	},
-	data: () => {
+// import { defineComponent } from 'vue';
+// import Vue3autocounter from 'vue3-autocounter';
+
+export default ({
+  name: 'Demo',
+  components: {
+    // Vue3autocounter
+  },
+  data: () => {
 		return {
 			experienceTitle: 'Years\' experience in design',
 			devTitle: 'Years\' experience in FE development',
-			viewsTitle: 'Project views on Behance',
+			// viewsTitle: '5 freelance clients',
 			projectsTitle: 'Projects completed',
 		};
 	},
-};
+});  
+
 </script>
 
 <template>
@@ -23,7 +27,10 @@ export default {
 		>
 			<!-- Years of experience counter -->
 			<div class="mb-20 sm:mb-0">
-				<counter
+				<div class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2">
+					4+
+				</div>
+				<!-- <Vue3autocounter
 					ref="counter"
 					:startAmount="0"
 					:endAmount="4"
@@ -33,7 +40,7 @@ export default {
 					@finished="alert(`Counting finished!`)"
 					class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
 					aria-label="About Status Counter"
-				/>
+				/> -->
 				<span
 					class="block text-md text-ternary-dark dark:text-ternary-light"
 				>
@@ -43,7 +50,10 @@ export default {
 
 			<!-- GitHub stars counter -->
 			<div class="mb-20 sm:mb-0">
-				<counter
+				<div class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2">
+					2
+				</div>
+				<!-- <Vue3autocounter
 					ref="counter"
 					:startAmount="0"
 					:endAmount="2"
@@ -51,7 +61,7 @@ export default {
 					:autoinit="true"
 					@finished="alert(`Counting finished!`)"
 					class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
-				/>
+				/> -->
 				<span
 					class="block text-md text-ternary-dark dark:text-ternary-light"
 					>{{ devTitle }}</span
@@ -59,8 +69,11 @@ export default {
 			</div>
 
 			<!-- Positive feedback counter -->
-			<div class="mb-20 sm:mb-0">
-				<counter
+			<!-- <div class="mb-20 sm:mb-0">
+				<div class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2">
+					5
+				</div>
+				<Vue3autocounter
 					ref="counter"
 					:startAmount="0"
 					:endAmount="400"
@@ -75,11 +88,14 @@ export default {
 				>
 					{{ viewsTitle }}
 				</span>
-			</div>
+			</div> -->
 
 			<!-- Projects completed counter -->
 			<div class="mb-20 sm:mb-0">
-				<counter
+				<div class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2">
+					30+
+				</div>
+				<!-- <Vue3autocounter
 					ref="counter"
 					:startAmount="0"
 					:endAmount="30"
@@ -91,9 +107,9 @@ export default {
 				/>
 				<span
 					class="block text-md text-ternary-dark dark:text-ternary-light"
-				>
+				> -->
 					{{ projectsTitle }}
-				</span>
+				<!-- </span> -->
 			</div>
 		</div>
 	</div>
