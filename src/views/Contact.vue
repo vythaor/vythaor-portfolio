@@ -23,7 +23,7 @@ export default {
 				},
 				{
 					id: 3,
-					name: '(+84) 96 995 2523 (Zalo, Telegram, WhatsApp)',
+					name: '(+84) 96 995 2523 (Telegram, WhatsApp, Zalo)',
 					icon: 'phone',
 				},
 			],
