@@ -1,24 +1,24 @@
 <script>
 import feather from "feather-icons";
 import ViewCVModal from "../ViewCVModal.vue";
-import "swiper/css";
-import { Swiper, SwiperSlide } from "swiper/vue";
-import { Pagination, Autoplay, Navigation } from "swiper/modules";
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
+// import "swiper/css";
+// import { Swiper, SwiperSlide } from "swiper/vue";
+// import { Pagination, Autoplay, Navigation } from "swiper/modules";
+// import 'swiper/css/pagination';
+// import 'swiper/css/navigation';
 
 
 export default {
   components: {
     ViewCVModal,
-    Swiper,
-    SwiperSlide,
+    // Swiper,
+    // SwiperSlide,
   },
-  setup() {
-    return {
-      modules: [Autoplay, Pagination, Navigation],
-    };
-  },
+  // setup() {
+  //   return {
+  //     modules: [Autoplay, Pagination, Navigation],
+  //   };
+  // },
   name: "Home",
   data: () => {
     return {
@@ -98,17 +98,17 @@ export default {
 
     <!-- Banner right illustration -->
     <div class="w-full md:w-2/3 text-right float-right rounded-md">
-      <!-- <img
+      <img
 				v-if="theme === 'light'"
 				src="@/assets/images/sapiens.svg"
 				alt="Developer"
-			/> -->
+			/>
       <!-- <img
 				src="@/assets/images/banner/4.png"
 				alt="Developer"
 				class="rounded-xl"
 			/> -->
-      <swiper
+      <!-- <swiper
         :loop="true"
         :pagination="{
           clickable: true,
@@ -222,7 +222,7 @@ export default {
             </div>
           </div>
         </swiper-slide>
-      </swiper>
+      </swiper> -->
     </div>
 
     <!-- Hire me modal -->
