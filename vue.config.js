@@ -1,6 +1,6 @@
 module.exports = {
-    // publicPath: process.env.NODE_ENV === 'production'
-    //   ? '/vythaor-portfolio/'
-    //   : '/'
-      publicPath: '/'
+    publicPath: process.env.NODE_ENV === 'production'
+      ? '/vythaor-portfolio/'
+      : '/'
+      // publicPath: '/'
   }
